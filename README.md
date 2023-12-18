@@ -1,1 +1,2 @@
 # Algorithms
+Small algorithm tasks
