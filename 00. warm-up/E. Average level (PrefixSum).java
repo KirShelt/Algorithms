@@ -17,7 +17,7 @@ public class Main {
             prefixSum[i + 1] = prefixSum[i] + a[i];
         }
         StringBuilder resultString = new StringBuilder();
-                for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             long iResult = a[i]*(2*i+1-n)-prefixSum[i]+prefixSum[n]-prefixSum[i+1];
             resultString.append(iResult).append(" ");
         }
